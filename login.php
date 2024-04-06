@@ -62,7 +62,7 @@ if(isset($_POST['submit']))
 
       try{
         $phone = "+91".$usid; // target number; includes ISD
-	    $api_key = '<API KEY>'; // API Key
+	    $api_key = '4632a13e-b83d-11ed-813b-0200cd936042'; // API Key
 	  $req = "https://2factor.in/API/V1/".$api_key."/SMS/".$phone."/".$otp;
 
 	    $sms = file_get_contents($req);
